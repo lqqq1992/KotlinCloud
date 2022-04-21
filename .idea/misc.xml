@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/drawable/music_close_24.xml" value="0.33229166666666665" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/drawable/music_favorite_24.xml" value="0.33229166666666665" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/drawable/music_favorite_border_24.xml" value="0.33229166666666665" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/drawable/notification_press.xml" value="0.11458333333333333" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/activity_flow.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/activity_jectpack.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/activity_jetpack.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/fragment_download.xml" value="0.29994916115912557" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/fragment_home.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/fragment_retrofit.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/fragment_room.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/item_adapter_kotlin.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/item_user.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/notification_view.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/layout/notification_view_small.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.32435180477885106" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/app/src/main/res/xml/network_security_config.xml" value="0.3072916666666667" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/frameworkbase/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/jetpackcompose/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.33229166666666665" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/jetpackcompose/src/main/res/drawable/ic_launcher_background.xml" value="0.33229166666666665" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/jetpackcompose/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.33229166666666665" />
+        <entry key="..\:/AndroidLearn/KotlinCloud/myapplication/src/main/res/layout/activity_main.xml" value="0.3072916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
