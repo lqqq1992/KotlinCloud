@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        NotificationUtils(this).createNotification()
+//        NotificationUtils(this).createNotification()
     }
 }
 

@@ -1,6 +1,8 @@
 package com.example.lqqq.kotlincloud
 
 import android.util.Log
+import com.beust.klaxon.Klaxon
+import com.example.lqqq.kotlincloud.coroutine.room.User
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.*
 import kotlinx.coroutines.flow.*
@@ -8,9 +10,16 @@ import kotlinx.coroutines.selects.select
 import kotlin.coroutines.*
 import kotlin.math.roundToInt
 
+
+fun main(args: Array<String>){
+    var learn = Learn()
+//    learn.base()
+    learn.standard()
+}
+
 // () -> unit 匿名函数
 // 一个函数式应用通常由三大类函数构成：变换transform、过滤filter、合并combine
-class Learn {
+class Learn() {
     // 静态
     companion object {
 
@@ -20,35 +29,53 @@ class Learn {
         // 查看kotlin字节码，shift两次，输入show kotlin
         // range表达式 1..4  前闭后开
         val range = listOf(1..4)
+        println(range.toString())
         // 字符串操作
         val name = "hello,happy".substring(0 until 10).replace("e","a").split(",")
+        println(name) // 输出[hallo, happ]
         // 四舍五入
         val num = 7.998.roundToInt()
+        println(num) // 输出8
         // 四舍五入保留X位
-        val num1 = "%.2f".format(num)
+        val num1 = "%.2f".format(7.999993)
+        println(num1) // 输出8.00
     }
     // 标准库函数
     fun standard(){
         // 隐式调用 this，返回当前接收者
         val str = "7890".apply {
             replace("7","5")
+            println(this) // 输出7890
         }
+        println(str) // 输出7890
+        var user = User(firstName = "alex", lastName = "job",age = 18).apply {
+            lastName = "jon"
+        }
+        println(user) // User(firstName=alex, lastName=jon, age=18)
         // 返回值为最后一句表达式
         val str2 = "123".let {
             it.split("2")
         }
+        println(str2) // 输出[1, 3]
         // 适合作用同一个原始对象，类似let，但是返回接收者
         val str3 = "567".also {
-            it.split("2")
+            it.split("6")
         }
+        println(str3) // 输出567
+        val user1 = user.also {
+            it.age = 19
+        }
+        println(user1) // User(firstName=alex, lastName=jon, age=19)
         // 隐式调用 this，返回lambda表达式
         val b = "qwe".run {
             substring(1)
         }.run {  }
+        println(b) // 输出kotlin.Unit
         // with是run变体，传入参数
         val c = with("wsx") {
             substring(1)
         }
+        println(c) // sx
     }
     // 扩展函数
     fun expand(){
